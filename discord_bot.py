@@ -22,4 +22,4 @@ class MyClient(discord.Client):
             await after.channel.send(f"{before.author} edited his message from '{str(before.content)}' to '{str(after.content)}'")
 
 client = MyClient()
-client.run("ODY5NjE4MjE3NTcwNjgwODYz.YQA1Ew.rqo811eVNiNrbZ1ibXFlrf28C9M")
+client.run("token")
